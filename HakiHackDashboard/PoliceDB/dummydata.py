@@ -25,3 +25,4 @@ for i in range(10):
                 'image': data['profile_photo']['256x256']})
    
 person_json = json.dumps(person, indent=2)
+person_json
