@@ -168,7 +168,7 @@
         {% else %}
         
           <div class="card-header">
-            <h5>Recent Users</h5>
+            <h5>Wall of shame</h5>
           </div>
           <div class="card-block px-0 py-3">
             <div class="table-responsive">
@@ -179,15 +179,12 @@
                         alt="activity-user">
                     </td>
                     <td>
-                      <h6 class="mb-1">Isabella Christensen</h6>
-                      <p class="m-0">Lorem Ipsum is simply…</p>
+                      <h6 class="mb-1">Dominic Kiprop</h6>
+                      <p class="m-0">Most corrupt....</p>
                     </td>
                     <td>
                       <h6 class="text-muted"><i class="fas fa-circle text-c-green f-10 m-r-15"></i>11
                         August 12:56</h6>
-                    </td>
-                    <td><a href="#!" class="label theme-bg2 text-white f-12">Reject</a><a href="#!"
-                        class="label theme-bg text-white f-12">Approve</a>
                     </td>
                   </tr>
                   <tr class="unread">
@@ -195,18 +192,18 @@
                         alt="activity-user">
                     </td>
                     <td>
-                      <h6 class="mb-1">Mathilde Andersen</h6>
-                      <p class="m-0">Lorem Ipsum is simply text of…</p>
+                      <h6 class="mb-1">Mathilde Omwami</h6>
+                      <p class="m-0">corrupt</p>
                     </td>
                     <td>
                       <h6 class="text-muted"><i class="fas fa-circle text-c-red f-10 m-r-15"></i>11 MAY
                         10:35</h6>
                     </td>
-                    <td><a href="#!" class="label theme-bg2 text-white f-12">Reject</a><a href="#!"
+                    <!-- <td><a href="#!" class="label theme-bg2 text-white f-12">Reject</a><a href="#!"
                         class="label theme-bg text-white f-12">Approve</a>
-                    </td>
+                    </td> -->
                   </tr>
-                  <tr class="unread">
+                  <!-- <tr class="unread">
                     <td><img class="rounded-circle" style="width:40px;" src="{% static 'assets/images/user/avatar-3.jpg' %}"
                         alt="activity-user">
                     </td>
@@ -242,17 +239,22 @@
                   <tr class="unread">
                     <td><img class="rounded-circle" style="width:40px;" src="{% static 'assets/images/user/avatar-2.jpg' %}"
                         alt="activity-user">
+                    </td>-->
+                    <tr class="unread">
+                      <td><img class="rounded-circle" style="width:40px;" src="{% static 'assets/images/user/avatar-2.jpg' %}"
+                        alt="activity-user">
                     </td>
-                    <td>
-                      <h6 class="mb-1">Albert Andersen</h6>
-                      <p class="m-0">Lorem Ipsum is simply dummy…</p>
+                    
+                    <td> 
+                    
+                      <h6 class="mb-1">Albert chege</h6>
+                      <p class="m-0">Like to harass citizens…</p>
                     </td>
                     <td>
                       <h6 class="text-muted"><i class="fas fa-circle text-c-green f-10 m-r-15"></i>21
                         July 12:56</h6>
                     </td>
-                    <td><a href="#!" class="label theme-bg2 text-white f-12">Reject</a><a href="#!"
-                        class="label theme-bg text-white f-12">Approve</a>
+                    <td>
                     </td>
                   </tr>
                 </tbody>
@@ -273,14 +275,14 @@
         <div class="card-block">
           <div class="row align-items-center justify-content-center">
             <div class="col">
-              <h5 class="m-0">Upcoming Govt Event</h5>
+              <h5 class="m-0">Public participation</h5>
             </div>
             <div class="col-auto">
               <label class="label theme-bg2 text-white f-14 f-w-400 float-right">34%</label>
             </div>
           </div>
-          <h2 class="mt-3 f-w-300">45<sub class="text-muted f-14">Competitors</sub></h2>
-          <h6 class="text-muted mt-4 mb-0">You can participate in event </h6>
+          <h2 class="mt-3 f-w-300">145<sub class="text-muted f-14">Reports</sub></h2>
+          <h6 class="text-muted mt-4 mb-0">Be part of us <a href="">report</a> a civil employee</h6>
           <i class="fab fa-angellist text-c-purple f-50"></i>
         </div>
       </div>
@@ -292,7 +294,7 @@
             </div>
             <div class="col">
               <h3 class="f-w-300">235</h3>
-              <span class="d-block text-uppercase">TOTAL IDEAS</span>
+              <span class="d-block text-uppercase">TOTAL REPORT</span>
             </div>
           </div>
         </div>
@@ -303,7 +305,7 @@
             </div>
             <div class="col">
               <h3 class="f-w-300">26</h3>
-              <span class="d-block text-uppercase">TOTAL LOCATIONS</span>
+              <span class="d-block text-uppercase">TOTAL WARDS</span>
             </div>
           </div>
         </div>
@@ -320,7 +322,7 @@
             </div>
             <div class="col text-right">
               <h3>12,281</h3>
-              <h5 class="text-c-green mb-0">+7.2% <span class="text-muted">Total Likes</span></h5>
+              <h5 class="text-c-green mb-0">+7.2% <span class="text-muted">Sentiment analysis by Kili</span></h5>
             </div>
           </div>
         </div>
@@ -416,7 +418,7 @@
     <div class="col-xl-4 col-md-6">
       <div class="card user-list">
         <div class="card-header">
-          <h5>Rating</h5>
+          <h5> Ward Rating</h5>
         </div>
         <div class="card-block">
           <div class="row align-items-center justify-content-center m-b-20">
@@ -433,7 +435,7 @@
             <div class="col-xl-12">
               <h6 class="align-items-center float-left"><i
                   class="fas fa-star f-10 m-r-10 text-c-yellow"></i>5</h6>
-              <h6 class="align-items-center float-right">384</h6>
+              <h6 class="align-items-center float-right">Kilimani</h6>
               <div class="progress m-t-30 m-b-20" style="height: 6px;">
                 <div class="progress-bar progress-c-theme" role="progressbar" style="width: 70%;"
                   aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
@@ -442,7 +444,7 @@
             <div class="col-xl-12">
               <h6 class="align-items-center float-left"><i
                   class="fas fa-star f-10 m-r-10 text-c-yellow"></i>4</h6>
-              <h6 class="align-items-center float-right">145</h6>
+              <h6 class="align-items-center float-right">Roysambu</h6>
               <div class="progress m-t-30  m-b-20" style="height: 6px;">
                 <div class="progress-bar progress-c-theme" role="progressbar" style="width: 35%;"
                   aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
@@ -451,7 +453,7 @@
             <div class="col-xl-12">
               <h6 class="align-items-center float-left"><i
                   class="fas fa-star f-10 m-r-10 text-c-yellow"></i>3</h6>
-              <h6 class="align-items-center float-right">24</h6>
+              <h6 class="align-items-center float-right">Zimmerman</h6>
               <div class="progress m-t-30  m-b-20" style="height: 6px;">
                 <div class="progress-bar progress-c-theme" role="progressbar" style="width: 25%;"
                   aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
@@ -460,7 +462,7 @@
             <div class="col-xl-12">
               <h6 class="align-items-center float-left"><i
                   class="fas fa-star f-10 m-r-10 text-c-yellow"></i>2</h6>
-              <h6 class="align-items-center float-right">1</h6>
+              <h6 class="align-items-center float-right">Pipeline</h6>
               <div class="progress m-t-30  m-b-20" style="height: 6px;">
                 <div class="progress-bar progress-c-theme" role="progressbar" style="width: 10%;"
                   aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
@@ -469,7 +471,7 @@
             <div class="col-xl-12">
               <h6 class="align-items-center float-left"><i
                   class="fas fa-star f-10 m-r-10 text-c-yellow"></i>1</h6>
-              <h6 class="align-items-center float-right">0</h6>
+              <h6 class="align-items-center float-right">Kibera</h6>
               <div class="progress m-t-30  m-b-20" style="height: 6px;">
                 <div class="progress-bar" role="progressbar" style="width:0;" aria-valuenow="0"
                   aria-valuemin="0" aria-valuemax="100"></div>
@@ -480,7 +482,7 @@
       </div>
     </div>
     <!-- [ rating list ] end-->
-    <div class="col-xl-8 col-md-12 m-b-30">
+    <!-- <div class="col-xl-8 col-md-12 m-b-30">
       <ul class="nav nav-tabs" id="myTab" role="tablist">
         <li class="nav-item">
           <a class="nav-link" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home"
@@ -751,7 +753,7 @@
           </table>
         </div>
       </div>
-    </div>
+    </div> -->
 
   </div>
   <!-- [ Main Content ] end -->

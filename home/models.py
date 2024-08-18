@@ -2,12 +2,13 @@ from django.db import models
 
 # Create your models here.
 
-class Product(models.Model):
-    id    = models.AutoField(primary_key=True)
-    name  = models.CharField(max_length = 100) 
-    info  = models.CharField(max_length = 100, default = '')
-    price = models.IntegerField(blank=True, null=True)
-
+class Govpersonnel(models.Model):
+    
+    image = models.ImageField(upload_to="civic_personel")
+    name  = models.CharField(max_length = 100, blank=True) 
+    email  = models.EmailField(max_length = 100, blank=True)
+    service_number = models.CharField(blank=True, max_length = 100)
+    
     def __str__(self):
-        return self.name
+        return self.image.url
    
