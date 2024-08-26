@@ -12,9 +12,10 @@ from rest_framework.decorators import api_view
 from rest_framework.response import Response
 
 def index(request):
+  data = Govpersonnel.objects.all()
 
   context = {
-    'segment'  : 'index',
+    'datas'  : data,
     #'products' : Product.objects.all()
   }
   return render(request, "pages/index.html", context)

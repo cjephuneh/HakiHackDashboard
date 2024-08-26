@@ -6,5 +6,5 @@ from . import views
 urlpatterns = [
   path(''       , views.index,  name='index'),
   path('tables/', views.tables, name='tables'),
-  path("api", views.sendModel, name="send")
+  path("api/", views.sendModel, name="send")
 ]
