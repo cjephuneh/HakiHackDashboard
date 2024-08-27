@@ -174,12 +174,13 @@
             <div class="table-responsive">
               <table class="table table-hover">
                 <tbody>
+                  {% for data in datas %}
                   <tr class="unread">
                     <td><img class="rounded-circle" style="width:40px;" src="{% static 'assets/images/user/avatar-1.jpg' %}"
                         alt="activity-user">
                     </td>
                     <td>
-                      <h6 class="mb-1">Dominic Kiprop</h6>
+                      <h6 class="mb-1">{{data.name}}</h6>
                       <p class="m-0">Most corrupt....</p>
                     </td>
                     <td>
@@ -187,22 +188,7 @@
                         August 12:56</h6>
                     </td>
                   </tr>
-                  <tr class="unread">
-                    <td><img class="rounded-circle" style="width:40px;" src="{% static 'assets/images/user/avatar-2.jpg' %}"
-                        alt="activity-user">
-                    </td>
-                    <td>
-                      <h6 class="mb-1">Mathilde Omwami</h6>
-                      <p class="m-0">corrupt</p>
-                    </td>
-                    <td>
-                      <h6 class="text-muted"><i class="fas fa-circle text-c-red f-10 m-r-15"></i>11 MAY
-                        10:35</h6>
-                    </td>
-                    <!-- <td><a href="#!" class="label theme-bg2 text-white f-12">Reject</a><a href="#!"
-                        class="label theme-bg text-white f-12">Approve</a>
-                    </td> -->
-                  </tr>
+                  {% endfor %}
                   <!-- <tr class="unread">
                     <td><img class="rounded-circle" style="width:40px;" src="{% static 'assets/images/user/avatar-3.jpg' %}"
                         alt="activity-user">
@@ -240,23 +226,6 @@
                     <td><img class="rounded-circle" style="width:40px;" src="{% static 'assets/images/user/avatar-2.jpg' %}"
                         alt="activity-user">
                     </td>-->
-                    <tr class="unread">
-                      <td><img class="rounded-circle" style="width:40px;" src="{% static 'assets/images/user/avatar-2.jpg' %}"
-                        alt="activity-user">
-                    </td>
-                    
-                    <td> 
-                    
-                      <h6 class="mb-1">Albert chege</h6>
-                      <p class="m-0">Like to harass citizens…</p>
-                    </td>
-                    <td>
-                      <h6 class="text-muted"><i class="fas fa-circle text-c-green f-10 m-r-15"></i>21
-                        July 12:56</h6>
-                    </td>
-                    <td>
-                    </td>
-                  </tr>
                 </tbody>
               </table>
             </div>
